@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body{
+  margin:0;
+  background-color: #DCDCDC;
+  opacity:0.6s;
+}
+
+.header{
+  width:100%;
+  height:auto;
+  display:block;
+  background-color:#3CB371;
+  padding: 20px 10px;
+  border-radius: 10px;
+  border:3px;
+}
+
+.header img{
+  float: left;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-bottom: 15px;
+}
+
+.inner-header{
+  display: block;
+  width: 1000px;
+  height: 100%;
+  margin-left: 35px;
+}
+
+.inner-header h2{
+  color: white;
+  margin-bottom: 0 px;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.inner-header h4{
+  color: white;
+}
+
